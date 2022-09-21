@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login & signUp</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="fbox">
+        <div class="container" style="height: max-content">
+            <div class="h-box">
+                <div class="box">
+                    <h2>Login</h2>
+                    <!-- <form method="post" action="#"> -->
+                        <div class="">
+                            <label for="uname"><b>Email</b></label>
+                            <input type="text" placeholder="Enter Email" name="uname" id="uname" required>
+
+                            <label for="psw"><b>Password</b></label>
+                            <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+
+                            <button type="submit" id="login">Login</button>
+
+                        </div>
+                    <!-- </form> -->
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="h-box">
+                <div class="box">
+                    <h2>Sign up</h2>
+                    <form action="action_page.php" method="post" id="sForm">
+                        <div class="">
+                            <label for="name"><b>Name</b></label>
+                            <input type="text" placeholder="Enter Name" name="name" id="name" required>
+                            <label for="email"><b>Email</b></label>
+                            <input type="email" placeholder="Enter Email" name="email" id="email" required>
+                            <label for="password"><b>Password</b></label>
+                            <input type="password" placeholder="Enter Password" name="Password" id="Password" required>
+                            <label for="phone"><b>Phone</b></label>
+                            <input type="phone" placeholder="Enter Phone" name="phone" id="phone" required>
+                            <label for="Address"><b>Address</b></label>
+                            <input type="text" placeholder="Enter Address" name="Address" id="Address" required>
+                            <label for="City"><b>City</b></label>
+                            <input type="text" placeholder="Enter City" name="City" id="City" required>
+                            <label for="State"><b>State</b></label>
+                            <input type="text" placeholder="Enter State" name="State" id="State" required>
+                            <label for="Pincode"><b>Pincode</b></label>
+                            <input type="number" placeholder="Enter Pincode" name="Pincode" id="Pincode" required>
+                            <label for="Country"><b>Country</b></label>
+                            <input type="text" placeholder="Enter Country" name="Country" id="Country" required>
+                            <label for="cName"><b>Company Name</b></label>
+                            <input type="text" placeholder="Enter Company Name" id="cName" name="cName" required>
+                            <label for="occupation"><b>Occupation</b></label>
+                            <input type="text" placeholder="Enter Occupation" name="occupation" id="occupation"
+                                required>
+                            <label for="exaperience"><b>Year of Experience</b></label>
+                            <input type="text" placeholder="Enter Year of Experience" name="exaperience"
+                                id="exaperience" required>
+                            <button type="submit" id="signin">singIn</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
